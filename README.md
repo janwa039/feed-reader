@@ -8,7 +8,7 @@ what was needed was to test this application using jasmine.
 
 # Project Starter
 
-[feed Reader](http://github.com/udacity/frontend-nanodegree-feedreader)
+The link to the starter code [feed Reader](http://github.com/udacity/frontend-nanodegree-feedreader)
 
 # How to Run The Application
 
