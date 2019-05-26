@@ -10,7 +10,7 @@ what was needed was to test this application using jasmine.
 
 [feed Reader](http://github.com/udacity/frontend-nanodegree-feedreader)
 
-# How to Run Application
+# How to Run The Application
 
 Run locally :
 
@@ -20,7 +20,7 @@ Run locally :
 
 # About the tests
 
-## Test Suite "The Menu"
+## Test suite (The Menu)
 
 Figured what classes where hidden or related to this test by inspecting the heml elements and css elements in the Chrome dev tools, I found the program show and hide the slide menu by toggling class 'menu-hidden' on he documnet body.
 
@@ -28,7 +28,7 @@ By default, the body should be with class menu-hidden. By using jQuery to select
 
 The click() event is used to check if the 'menu-hidden' class exists to ensure the function goes well.
 
-## Test Suite "Initial Entries"
+## Test suite (Initial Entries)
 
 The loadFeed() is asynchronous so the test should use beforeEach() and done() to ensure the loadFeed() runs in the test.
 
@@ -40,6 +40,6 @@ By calling loadFeed(1, function(...)) the test load the second feed which contai
 
 After this, there is an expectation that  second feed content should be different from the first feed. So that by comparing the rendered HTML content, we can check if the program loads a different feed with the function instead the same one.
 
-## Test Wuite "New Feed Selection"
+## Test suite (New Feed Selection)
 
 There are more than one feed in the allFeeds. The loadFeed() function load specified feed with the index.
